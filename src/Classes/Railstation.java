@@ -9,6 +9,15 @@ package Classes;
  *
  * @author nils.bloemeke
  */
-public class Railstation {
+public class Railstation extends Utility{
+
+    public Railstation(int loc, String name) {
+        super(loc, name);
+    }
+
+    @Override
+    public void landedOn() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

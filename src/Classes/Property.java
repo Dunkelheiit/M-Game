@@ -5,10 +5,30 @@
  */
 package Classes;
 
+import java.awt.Color;
+
 /**
  *
  * @author nils.bloemeke
  */
-public class Property {
+public class Property extends Field{
+
+    private Color color;
+    private int cost, rent, level;
+    private boolean mortgaged;
+
+    public Property(int loc, String name, Color color, int cost, int rent) {
+        super(loc, name);
+        this.color = color;
+        this.cost = cost;
+        this.rent = rent;
+        this.level = 0;
+        this.mortgaged = false;
+    }
+    
+    @Override
+    public void landedOn() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

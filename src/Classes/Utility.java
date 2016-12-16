@@ -9,6 +9,21 @@ package Classes;
  *
  * @author nils.bloemeke
  */
-public class Utility {
+public class Utility extends Field{
+
+    private int cost, level;
+    private boolean mortgaged;
+    
+    public Utility(int loc, String name) {
+        super(loc, name);
+        this.mortgaged = false;
+        this.cost =  75;
+        //this.level = checkOther();
+    }
+
+    @Override
+    public void landedOn() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
