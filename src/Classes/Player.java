@@ -5,10 +5,17 @@
  */
 package Classes;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author nils.bloemeke
  */
 public class Player {
+    
+    private String name;
+    private int money;
+    private ArrayList<Field> ownedFields;
+    private int loc;
     
 }
