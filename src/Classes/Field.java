@@ -12,12 +12,13 @@ package Classes;
 public abstract class Field {
     
     protected int loc;
-    protected String name, owner;
+    protected String name;
+    protected Player owner;
 
     public Field(int loc, String name) {
         this.loc = loc;
         this.name = name;
-        this.owner = "Bank";
+        this.owner = new Bank();
     }    
 
     public int getLoc() {
@@ -28,11 +29,11 @@ public abstract class Field {
         return name;
     }
     
-    public String getOwner() {
+    public Player getOwner() {
         return owner;
     }
 
-    public void setOwner(String owner) {
+    public void setOwner(Player owner) {
         this.owner = owner;
     }
     

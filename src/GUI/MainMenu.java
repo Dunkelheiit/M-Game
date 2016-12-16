@@ -5,6 +5,9 @@
  */
 package GUI;
 
+import Classes.Bank;
+import Classes.Player;
+
 /**
  *
  * @author nils.bloemeke
@@ -64,13 +67,24 @@ public class MainMenu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    Player[] p;
+    Bank b;
+    
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
         
-        new Controller().setVisible(true);
+        btnStart.setEnabled(false);
+        btnStart.setText("Loading game contents");
+        startGame();
+        new Controller(p, new Bank()).setVisible(true);
         this.dispose();
         
     }//GEN-LAST:event_btnStartActionPerformed
 
+    private void startGame() {
+        this.p = new Player[1];
+        this.p[0] = new Player("Test");
+    }
+    
     public static void startup(){
         
         //initialize values and load game files
