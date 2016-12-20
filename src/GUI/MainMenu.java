@@ -7,6 +7,7 @@ package GUI;
 
 import Classes.Bank;
 import Classes.Player;
+import java.io.File;
 
 /**
  *
@@ -69,23 +70,40 @@ public class MainMenu extends javax.swing.JFrame {
 
     Player[] p;
     Bank b;
-    
+
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
-        
-        btnStart.setEnabled(false);
-        btnStart.setText("Loading game contents");
-        startGame();
-        new Controller(p, new Bank()).setVisible(true);
-        this.dispose();
-        
+
+            btnStart.setEnabled(false);
+            btnStart.setText("Loading game contents");
+            startGame();
+            new Controller(p, new Bank()).setVisible(true);
+            this.dispose();
+           
     }//GEN-LAST:event_btnStartActionPerformed
 
     private void startGame() {
+        System.out.println("start");
         this.p = new Player[1];
         this.p[0] = new Player("Test");
     }
     
     public static void startup(){
+
+    String documents = System.getProperty("user.home")+"/Documents";
+    String cfgfolder = documents + "/M-Game/";
+    boolean success;
+    
+    success = (new File(documents + "/M-Game")).mkdirs();
+        
+        if (!success) {
+                
+            System.out.println("Folder creation Failed (" + cfgfolder + ")");
+                
+        }else{
+                
+                System.out.println("Folder created (" + cfgfolder + ")");
+                
+        }
         
         //initialize values and load game files
         
