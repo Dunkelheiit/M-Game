@@ -10,7 +10,7 @@ import Classes.Player;
 
 /**
  *
- * @author nils.bloemeke
+ * @author Nils Bloemeke, Erik
  */
 public class MainMenu extends javax.swing.JFrame {
 

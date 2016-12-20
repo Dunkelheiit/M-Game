@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author nils.bloemeke
+ * @author Nils Bloemeke, Erik
  */
 public class Player {
     

@@ -12,7 +12,7 @@ import Classes.Player;
 
 /**
  *
- * @author nils.bloemeke
+ * @author Nils Bloemeke, Erik
  */
 public class Controller extends javax.swing.JFrame {
     

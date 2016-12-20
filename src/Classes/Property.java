@@ -9,7 +9,7 @@ import java.awt.Color;
 
 /**
  *
- * @author nils.bloemeke
+ * @author Nils Bloemeke, Erik
  */
 public class Property extends Field{
 

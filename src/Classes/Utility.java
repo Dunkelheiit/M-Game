@@ -7,7 +7,7 @@ package Classes;
 
 /**
  *
- * @author nils.bloemeke
+ * @author Nils Bloemeke, Erik
  */
 public class Utility extends Field{
 

@@ -7,7 +7,7 @@ package Classes;
 
 /**
  *
- * @author Erik
+ * @author Nils Bloemeke, Erik
  */
 public class Bank extends Player{
 
