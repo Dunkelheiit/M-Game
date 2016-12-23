@@ -11,19 +11,17 @@ import java.awt.Color;
  *
  * @author Nils Bloemeke, Erik
  */
-public class Property extends Field{
+public class Property extends OwnableField{
 
     private Color color;
     private int cost, rent, level;
-    private boolean mortgaged;
 
-    public Property(int loc, String name, Color color, int cost, int rent) {
-        super(loc, name);
+    public Property(int loc, String name, Color color, int cost, int rent, Player owner, int level, boolean mortgaged) {
+        super(loc, name, owner, mortgaged);
         this.color = color;
         this.cost = cost;
         this.rent = rent;
-        this.level = 0;
-        this.mortgaged = false;
+        this.level = level;
     }
     
     @Override

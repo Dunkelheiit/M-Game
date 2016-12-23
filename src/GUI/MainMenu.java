@@ -72,19 +72,11 @@ public class MainMenu extends javax.swing.JFrame {
     Bank b;
 
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
-
-            btnStart.setEnabled(false);
-            btnStart.setText("Loading game contents");
-            startGame();
-            new Controller(p, new Bank()).setVisible(true);
-            this.dispose();
-           
+        
     }//GEN-LAST:event_btnStartActionPerformed
 
     private void startGame() {
         System.out.println("start");
-        this.p = new Player[1];
-        this.p[0] = new Player("Test");
     }
     
     public static void startup(){

@@ -5,6 +5,8 @@
  */
 package Classes;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Nils Bloemeke, Erik
@@ -13,7 +15,8 @@ public class Bank extends Player{
 
     private int houses, hotels;
     
-    public Bank() {
+    public Bank(ArrayList<OwnableField> ownedFields) {
+        super("Bank", 1, ownedFields, -1);
     }
     
     @Override
@@ -32,7 +35,7 @@ public class Bank extends Player{
     }
     
     @Override
-    public int getLoc() {
+    public int getLocation() {
         return -1;
     }
     

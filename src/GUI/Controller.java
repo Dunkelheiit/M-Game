@@ -1,7 +1,7 @@
 package GUI;
 
 import Classes.Bank;
-import Classes.Field;
+import Classes.OwnableField;
 import Classes.Player;
 
 /*
@@ -18,7 +18,7 @@ public class Controller extends javax.swing.JFrame {
     
     Player[] players;
     Bank bank;
-    Field[] fields;
+    OwnableField[] fields;
     
     /**
      * Creates new form Brett

@@ -15,21 +15,21 @@ public class Player {
     
     private String name;
     private int money;
-    private ArrayList<Field> ownedFields;
-    private int loc;
+    private ArrayList<OwnableField> ownedFields;
+    private int location;
 
-    public Player(String name) {
+    public Player(String name, int money, ArrayList<OwnableField> ownedFields, int location) {
+        this.name = name;
+        this.money = money;
+        this.ownedFields = ownedFields;
+        this.location = location;
+    }
+    
+    protected Player(String name) {
         this.name = name;
         this.money = 1500;
         this.ownedFields = new ArrayList<>();
-        this.loc = 0;
-    }
-    
-    protected Player() {
-        this.name = "Bank";
-        this.money = Integer.MAX_VALUE;
-        this.ownedFields = new ArrayList<>();
-        this.loc = -1;
+        this.location = 0;
     }
 
     public String getName() {
@@ -40,12 +40,12 @@ public class Player {
         return money;
     }
 
-    public ArrayList<Field> getOwnedFields() {
+    public ArrayList<OwnableField> getOwnedFields() {
         return ownedFields;
     }
 
-    public int getLoc() {
-        return loc;
+    public int getLocation() {
+        return location;
     }
     
     public void addMoney(int amount) {
@@ -59,18 +59,18 @@ public class Player {
     public void move(int dir, int amount) {
         switch(dir) {
             case DIR_FORWARD:
-                this.loc += amount;
+                this.location += amount;
                 break;
             case DIR_BACKWARD:
-                this.loc -= amount;
+                this.location -= amount;
         }
     }
     
-    public void addField(Field f) {
+    public void addField(OwnableField f) {
         this.ownedFields.add(f);
     }
     
-    public void removeField(Field f) {
+    public void removeField(OwnableField f) {
         this.ownedFields.remove(f);
     }
     

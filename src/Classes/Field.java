@@ -7,34 +7,32 @@ package Classes;
 
 /**
  *
- * @author Nils Bloemeke, Erik
+ * @author Erik
  */
 public abstract class Field {
     
-    protected int loc;
+    protected int location;
     protected String name;
-    protected Player owner;
 
-    public Field(int loc, String name) {
-        this.loc = loc;
+    public Field(int location, String name) {
+        this.location = location;
         this.name = name;
-        this.owner = new Bank();
-    }    
+    }
 
-    public int getLoc() {
-        return loc;
+    public int getLocation() {
+        return location;
+    }
+
+    public void setLocation(int location) {
+        this.location = location;
     }
 
     public String getName() {
         return name;
     }
-    
-    public Player getOwner() {
-        return owner;
-    }
 
-    public void setOwner(Player owner) {
-        this.owner = owner;
+    public void setName(String name) {
+        this.name = name;
     }
     
     public abstract void landedOn();

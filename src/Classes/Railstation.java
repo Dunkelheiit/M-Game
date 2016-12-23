@@ -11,8 +11,12 @@ package Classes;
  */
 public class Railstation extends Utility{
 
-    public Railstation(int loc, String name) {
-        super(loc, name);
+    public Railstation(int loc, String name, Player owner) {
+        super(loc, name, owner, 200, false);
+    }
+
+    public Railstation(int loc, String name, Player owner, int cost, boolean mortgaged) {
+        super(loc, name, owner, cost, mortgaged);
     }
 
     @Override

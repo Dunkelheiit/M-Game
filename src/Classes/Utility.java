@@ -9,18 +9,21 @@ package Classes;
  *
  * @author Nils Bloemeke, Erik
  */
-public class Utility extends Field{
+public class Utility extends OwnableField{
 
     private int cost, level;
-    private boolean mortgaged;
     
-    public Utility(int loc, String name) {
-        super(loc, name);
-        this.mortgaged = false;
-        this.cost =  75;
+    public Utility(int loc, String name, Player owner, int cost, boolean mortgaged) {
+        super(loc, name, owner, mortgaged);
+        this.cost =  cost;
         //this.level = checkOther();
     }
 
+    public Utility(int location, String name, Player owner) {
+        super(location, name, owner, false);
+        this.cost = 75;
+    }
+    
     @Override
     public void landedOn() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
