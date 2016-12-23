@@ -28,8 +28,6 @@ public class Controller extends javax.swing.JFrame {
         initComponents();
         this.players = p;
         this.bank = b;
-        
-        labelEverything();
     }
 
     /**
@@ -41,8 +39,6 @@ public class Controller extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTextField1 = new javax.swing.JTextField();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Monopoly");
         setBackground(new java.awt.Color(255, 255, 255));
@@ -50,33 +46,22 @@ public class Controller extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(1100, 1100));
         setResizable(false);
 
-        jTextField1.setText("jTextField1");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(226, 226, 226)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(530, Short.MAX_VALUE))
+            .addGap(0, 815, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(266, Short.MAX_VALUE)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(248, 248, 248))
+            .addGap(0, 534, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void labelEverything() {
-        jTextField1.setText(players[0].getMoney() + "");
-    }
+    
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
