@@ -39,8 +39,46 @@ public class Controller extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lblGotoJail = new javax.swing.JLabel();
+        lblTheaterstrasse = new javax.swing.JLabel();
+        lblMuseumstrasse = new javax.swing.JLabel();
+        lblEreignissfeld2 = new javax.swing.JLabel();
+        lblOpernplatz = new javax.swing.JLabel();
+        lblNordbahnhof = new javax.swing.JLabel();
+        lblLessingstrasse = new javax.swing.JLabel();
+        lblSchillerstrasse = new javax.swing.JLabel();
+        lblWasserwerk = new javax.swing.JLabel();
+        lblGoethestrasse = new javax.swing.JLabel();
+        lblFreeParking = new javax.swing.JLabel();
+        lblSchlossallee = new javax.swing.JLabel();
+        lblStart = new javax.swing.JLabel();
+        lblGefaengniss = new javax.swing.JLabel();
+        lblBerlinerstrasse = new javax.swing.JLabel();
+        lblRathausplatz = new javax.swing.JLabel();
+        lblHauptstrasse = new javax.swing.JLabel();
+        lblGemeinschaftsfeld3 = new javax.swing.JLabel();
+        lblBahnhofstraße = new javax.swing.JLabel();
+        lblHauptbahnhof = new javax.swing.JLabel();
+        lblEreignisfeld3 = new javax.swing.JLabel();
+        lblParkstrasse = new javax.swing.JLabel();
+        lblZusatzsteuer = new javax.swing.JLabel();
+        lblBadstrasse = new javax.swing.JLabel();
+        lblGemeinschaftsfeld1 = new javax.swing.JLabel();
+        lblTurmstrasse = new javax.swing.JLabel();
+        lblEinkommensteuer = new javax.swing.JLabel();
+        lblSuedbahnhof = new javax.swing.JLabel();
+        lblChausseestrasse = new javax.swing.JLabel();
+        lblEreignisfeld1 = new javax.swing.JLabel();
+        lblElisenstrasse = new javax.swing.JLabel();
+        lblPoststrasse = new javax.swing.JLabel();
+        lblSeestrasse = new javax.swing.JLabel();
+        lblElektrizitaetswerk = new javax.swing.JLabel();
+        lblHafenstrasse = new javax.swing.JLabel();
+        lblNeuestrasse = new javax.swing.JLabel();
+        lblWestbahnhof = new javax.swing.JLabel();
+        lblMuenchnerstrasse = new javax.swing.JLabel();
+        lblGemeinschaftsfeld2 = new javax.swing.JLabel();
+        lblWienerstrasse = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Monopoly");
@@ -48,27 +86,145 @@ public class Controller extends javax.swing.JFrame {
         setName("PlayField"); // NOI18N
         setPreferredSize(new java.awt.Dimension(1200, 1200));
         setResizable(false);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/Field.jpg"))); // NOI18N
+        lblGotoJail.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/BigField.png"))); // NOI18N
+        getContentPane().add(lblGotoJail, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 0, -1, -1));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(944, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 1050, Short.MAX_VALUE))
-        );
+        lblTheaterstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblTheaterstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 0, -1, -1));
+
+        lblMuseumstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblMuseumstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, -1, -1));
+
+        lblEreignissfeld2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblEreignissfeld2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, -1, -1));
+
+        lblOpernplatz.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblOpernplatz, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 0, -1, -1));
+
+        lblNordbahnhof.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblNordbahnhof, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 0, -1, -1));
+
+        lblLessingstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblLessingstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 0, -1, -1));
+
+        lblSchillerstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblSchillerstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 0, -1, -1));
+
+        lblWasserwerk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblWasserwerk, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 0, -1, -1));
+
+        lblGoethestrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldTopside.jpg"))); // NOI18N
+        getContentPane().add(lblGoethestrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 0, -1, -1));
+
+        lblFreeParking.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/BigField.png"))); // NOI18N
+        getContentPane().add(lblFreeParking, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        lblSchlossallee.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblSchlossallee.setName(""); // NOI18N
+        getContentPane().add(lblSchlossallee, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 950, -1, -1));
+
+        lblStart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/BigField.png"))); // NOI18N
+        getContentPane().add(lblStart, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 1050, -1, -1));
+
+        lblGefaengniss.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/BigField.png"))); // NOI18N
+        getContentPane().add(lblGefaengniss, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 1050, -1, -1));
+
+        lblBerlinerstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblBerlinerstrasse.setName(""); // NOI18N
+        getContentPane().add(lblBerlinerstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, -1, -1));
+
+        lblRathausplatz.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblRathausplatz.setName(""); // NOI18N
+        getContentPane().add(lblRathausplatz, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 150, -1, -1));
+
+        lblHauptstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblHauptstrasse.setName(""); // NOI18N
+        getContentPane().add(lblHauptstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 250, -1, -1));
+
+        lblGemeinschaftsfeld3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblGemeinschaftsfeld3.setName(""); // NOI18N
+        getContentPane().add(lblGemeinschaftsfeld3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 350, -1, -1));
+
+        lblBahnhofstraße.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblBahnhofstraße.setName(""); // NOI18N
+        getContentPane().add(lblBahnhofstraße, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 450, -1, -1));
+
+        lblHauptbahnhof.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblHauptbahnhof.setName(""); // NOI18N
+        getContentPane().add(lblHauptbahnhof, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 550, -1, -1));
+
+        lblEreignisfeld3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblEreignisfeld3.setName(""); // NOI18N
+        getContentPane().add(lblEreignisfeld3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 650, -1, -1));
+
+        lblParkstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblParkstrasse.setName(""); // NOI18N
+        getContentPane().add(lblParkstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 750, -1, -1));
+
+        lblZusatzsteuer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldRightside.jpg"))); // NOI18N
+        lblZusatzsteuer.setName(""); // NOI18N
+        getContentPane().add(lblZusatzsteuer, new org.netbeans.lib.awtextra.AbsoluteConstraints(1050, 850, -1, -1));
+
+        lblBadstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblBadstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 1050, -1, -1));
+
+        lblGemeinschaftsfeld1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblGemeinschaftsfeld1, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 1050, -1, -1));
+
+        lblTurmstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblTurmstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 1050, -1, -1));
+
+        lblEinkommensteuer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblEinkommensteuer, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 1050, -1, -1));
+
+        lblSuedbahnhof.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblSuedbahnhof, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 1050, -1, -1));
+
+        lblChausseestrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblChausseestrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 1050, -1, -1));
+
+        lblEreignisfeld1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblEreignisfeld1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 1050, -1, -1));
+
+        lblElisenstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblElisenstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 1050, -1, -1));
+
+        lblPoststrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldBottomside.jpg"))); // NOI18N
+        getContentPane().add(lblPoststrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 1050, -1, -1));
+
+        lblSeestrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblSeestrasse.setName(""); // NOI18N
+        getContentPane().add(lblSeestrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 950, -1, -1));
+
+        lblElektrizitaetswerk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblElektrizitaetswerk.setName(""); // NOI18N
+        getContentPane().add(lblElektrizitaetswerk, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 850, -1, -1));
+
+        lblHafenstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblHafenstrasse.setName(""); // NOI18N
+        getContentPane().add(lblHafenstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 750, -1, -1));
+
+        lblNeuestrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblNeuestrasse.setName(""); // NOI18N
+        getContentPane().add(lblNeuestrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 650, -1, -1));
+
+        lblWestbahnhof.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblWestbahnhof.setName(""); // NOI18N
+        getContentPane().add(lblWestbahnhof, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 550, -1, -1));
+
+        lblMuenchnerstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblMuenchnerstrasse.setName(""); // NOI18N
+        getContentPane().add(lblMuenchnerstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 450, -1, -1));
+
+        lblGemeinschaftsfeld2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblGemeinschaftsfeld2.setName(""); // NOI18N
+        getContentPane().add(lblGemeinschaftsfeld2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, -1, -1));
+
+        lblWienerstrasse.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Files/FieldLeftside.jpg"))); // NOI18N
+        lblWienerstrasse.setName(""); // NOI18N
+        getContentPane().add(lblWienerstrasse, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -76,7 +232,45 @@ public class Controller extends javax.swing.JFrame {
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel lblBadstrasse;
+    private javax.swing.JLabel lblBahnhofstraße;
+    private javax.swing.JLabel lblBerlinerstrasse;
+    private javax.swing.JLabel lblChausseestrasse;
+    private javax.swing.JLabel lblEinkommensteuer;
+    private javax.swing.JLabel lblElektrizitaetswerk;
+    private javax.swing.JLabel lblElisenstrasse;
+    private javax.swing.JLabel lblEreignisfeld1;
+    private javax.swing.JLabel lblEreignisfeld3;
+    private javax.swing.JLabel lblEreignissfeld2;
+    private javax.swing.JLabel lblFreeParking;
+    private javax.swing.JLabel lblGefaengniss;
+    private javax.swing.JLabel lblGemeinschaftsfeld1;
+    private javax.swing.JLabel lblGemeinschaftsfeld2;
+    private javax.swing.JLabel lblGemeinschaftsfeld3;
+    private javax.swing.JLabel lblGoethestrasse;
+    private javax.swing.JLabel lblGotoJail;
+    private javax.swing.JLabel lblHafenstrasse;
+    private javax.swing.JLabel lblHauptbahnhof;
+    private javax.swing.JLabel lblHauptstrasse;
+    private javax.swing.JLabel lblLessingstrasse;
+    private javax.swing.JLabel lblMuenchnerstrasse;
+    private javax.swing.JLabel lblMuseumstrasse;
+    private javax.swing.JLabel lblNeuestrasse;
+    private javax.swing.JLabel lblNordbahnhof;
+    private javax.swing.JLabel lblOpernplatz;
+    private javax.swing.JLabel lblParkstrasse;
+    private javax.swing.JLabel lblPoststrasse;
+    private javax.swing.JLabel lblRathausplatz;
+    private javax.swing.JLabel lblSchillerstrasse;
+    private javax.swing.JLabel lblSchlossallee;
+    private javax.swing.JLabel lblSeestrasse;
+    private javax.swing.JLabel lblStart;
+    private javax.swing.JLabel lblSuedbahnhof;
+    private javax.swing.JLabel lblTheaterstrasse;
+    private javax.swing.JLabel lblTurmstrasse;
+    private javax.swing.JLabel lblWasserwerk;
+    private javax.swing.JLabel lblWestbahnhof;
+    private javax.swing.JLabel lblWienerstrasse;
+    private javax.swing.JLabel lblZusatzsteuer;
     // End of variables declaration//GEN-END:variables
 }
