@@ -35,9 +35,7 @@ public class MainMenu extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Main Menu");
-        setAlwaysOnTop(true);
         setName("MainMenu"); // NOI18N
-        setPreferredSize(new java.awt.Dimension(900, 600));
         setResizable(false);
         setType(java.awt.Window.Type.UTILITY);
 
@@ -72,6 +70,9 @@ public class MainMenu extends javax.swing.JFrame {
     Bank b;
 
     private void btnStartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnStartActionPerformed
+        
+        Controller con = new Controller(p, b);
+        con.setVisible(true);
         
     }//GEN-LAST:event_btnStartActionPerformed
 
